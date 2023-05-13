@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  flex-basis: 100%;
+  font-weight: bold;
+}
+
+input {
+  flex-basis: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+.contacto {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contacto h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.contacto p {
+  margin: 0;
+}
+
+.contacto button {
+  margin-right: 1rem;
+}
+
+ 
+
+  .nombre p,
+  .telefono p,
+  .email p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nombre,
+  .telefono,
+  .email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  }
+ .main{
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .card .targeta{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #111;
+}
